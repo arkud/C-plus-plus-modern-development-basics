@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(Budget__professional_desktop_version_fast_)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(Budget__professional_desktop_version_fast_ budget_good_base.cpp)

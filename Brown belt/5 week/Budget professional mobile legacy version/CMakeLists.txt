@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(Budget_professional_mobile_legacy_version)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(Budget_professional_mobile_legacy_version budget_bad_base.cpp)
