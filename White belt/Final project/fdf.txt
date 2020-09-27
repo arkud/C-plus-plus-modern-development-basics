@@ -1,0 +1,72 @@
+OK:
+Add 1-1-1 task
+Add -2-1-1 task
+Add 03-01-01 task
+Add +4-1-1 task
+Add 1-+6-1 task
+Add 1-1-+7 task
+
+Wrong date format: DATE
+Add f8-1-1 task
+Add 9f-1-1 task
+Add 1-11f-1 task
+Add 1-f12-1 task
+Add 1-1-f13 task!
+Add 1-1-14f task
+Add --15-1-1 task
+Add 1---2-1 task
+Add 1-1---17 task
+Add 1-1- task
+Add 1--1 task
+Add --111 task
+Add 1---+++1 task
+Add --++1 task
+Add 1-1-f task
+Del foo
+
+Month value is invalid: MONTH
+Add 1--1-32 task
+Add 1-0-32 task
+Add 1-13-32 task
+Add 1-+0-32 task
+
+Day value is invalid: DAY
+Add 1-1--1 task
+Add 1-1-0 task
+Add 1-1-+0 task
+Add 1-1-32 task
+
+Skipped
+<Empty cin>
+Add 1-1-1
+Add task
+Find <Not existing but correct date>
+Print <Any additional string>
+
+Unknown command: FIRSTWORD
+<Any first string except Add, Del, Find, Print>
+add 1-1-1 task
+Scrum 1-16-93 today
+
+Sorting:
+Input:
+Add 1-1-1 C
+Add 1-1-1 A
+Add 1-1-1 B
+Add 1-2-1 task2
+Add 1-1-2 task3
+Add 2-1-1 task1
+Output:
+0001-01-01 A
+0001-01-01 B
+0001-01-01 C
+0001-01-02 task3
+0001-02-01 task2
+0002-01-01 task1
+
+Input:
+Find 1-1-1
+Output:
+A
+B
+C
